@@ -11,7 +11,8 @@ import {
 } from 'react-native';
 import MainStack from './src/router'
 
-
+import { YellowBox } from 'react-native';
+YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
 
 type Props = {};
 export default class App extends Component<Props> {
